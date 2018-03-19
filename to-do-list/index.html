@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Template</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="style.css">
+   </head>
+
+   <body>
+      <div id="toDoApp" class="container my-5">
+        <div class="">
+         <div class="toDoInput">
+            <input id="toDoEl" type="text" placeholder="Type toDo ...">
+            <button id="addBtn" onclick="newElement()">Add toDo</button>
+         </div>
+         <table>
+       		<thead>
+       			<tr>
+              <th>Num.</th>
+       				<th>Task</th>
+       			</tr>
+       		</thead>
+       		<tbody id="toDoList">
+       		</tbody>
+       	</table>
+       </div>
+      </div>
+
+   </body>
+
+   <script type="text/javascript" src="app.js"></script>
+   <script type="text/javascript" src="table_sorter.js"></script>
+</html>

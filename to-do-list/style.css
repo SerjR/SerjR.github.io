@@ -1,0 +1,174 @@
+/* Template colors */
+
+/*
+#6c757d - Dark background
+#f9f9f9 - Light background
+#e9e9e9 - Light background-2
+#bbb - Hover
+*/
+
+#toDoApp>div {
+   max-width: 700px;
+   margin: auto;
+}
+
+#toDoApp table {
+   width: 100%;
+   border: 2px solid #6c757d;
+}
+
+#toDoApp thead {
+}
+
+#toDoApp thead>tr {
+   background-color: #6c757d;
+   /* height: 42px; */
+   height: 31px;
+   text-align: left;
+   color: #fff;
+   font-size: 14px;
+}
+
+#toDoApp tr>td {
+  height: 42px;
+  line-height: 31px;
+}
+
+#toDoApp thead>tr>th {
+  padding: 0px 20px;
+}
+
+#toDoApp tr {
+   cursor: pointer;
+   position: relative;
+   padding: 12px 8px 12px 40px;
+   background: #f9f9f9;
+   font-size: 18px;
+   transition: 0.2s;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+#toDoApp tr:nth-child(2n) {
+  background: #e9e9e9;
+}
+
+#toDoApp tbody>tr:hover {
+   background: #bbb;
+}
+
+#toDoApp td {
+   padding: 5px;
+}
+
+#toDoApp tr>td:first-child, #toDoApp tr>th:first-child {
+   width: 80px;
+   text-align: left;
+}
+
+#toDoApp .checked {
+   background: #8bc34a90 !important;
+   text-decoration: line-through;
+}
+
+#toDoApp .checked td:last-child::after {
+   background-image: url('img/checked.svg');
+   display: inline-block;
+   width: 35px;
+   height: 22px;
+   content: "";
+   background-repeat: no-repeat;
+   background-position: 10px 0px;
+   position: relative;
+   top: 4px;
+}
+
+#toDoApp .close {
+   content: url('img/close.svg');
+   width: 22px;
+   padding: 3px;
+   position: relative;
+   top: 4px;
+}
+
+#toDoApp .close:hover {
+   background-color: #f44336;
+   color: white;
+   border-radius: 50px;
+}
+
+#toDoApp .toDoInput {
+   height: 42px;
+   background-color: #6c757d;
+   padding: 2px;
+   color: #fff;
+   text-align: center;
+}
+
+#toDoApp .toDoInput:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+#toDoApp input {
+   border: none;
+   width: 75%;
+   padding: 10px;
+   float: left;
+   font-size: 16px;
+}
+
+#toDoApp #addBtn {
+   height: 38px;
+   width: 25%;
+   background: #e9e9e9;
+   color: #555;
+   float: left;
+   text-align: center;
+   cursor: pointer;
+   transition: 0.3s;
+   border: 0;
+}
+
+#toDoApp #addBtn:hover {
+   background-color: #bbb;
+}
+
+/* Table head arrows */
+
+#toDoApp th.desc:after {
+  border-top-color: #bbb;
+}
+
+#toDoApp th.asc:before {
+  border-bottom-color: #bbb;
+}
+
+#toDoApp th:after, .container th:before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px;
+  width: 0;
+  height: 0;
+}
+
+#toDoApp th:after {
+  border-top-color: #fff;
+  top: -8px;
+  position: relative;
+  right: 15px;
+}
+
+#toDoApp th:before {
+  border-bottom-color: #fff;
+  top: 10px;
+  position: relative;
+  right: 15px;
+}

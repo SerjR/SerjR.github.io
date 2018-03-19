@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>Test case</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+   <!-- <link rel="stylesheet" href="css/grid.css"> -->
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/lightbox.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body id="sHome">
+   <nav class="navbar navbar-light bg-light fixed-top navbar-expand-lg">
+      <div class="container">
+
+         <a class="navbar-brand" href="#">
+            <div>
+               <img src="img/rocket.svg" width="40" alt="some_image">
+            </div>
+            <div>
+               <h3>Colorful flat</h3>
+            </div>
+         </a>
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="#sHome">Home</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="#s2">Services</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="#s3">Portfolio</a>
+               </li>
+
+               <li class="nav-item dropdown dropdown-menu-right">
+                  <a class="nav-link" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                  <ul class="dropdown-menu">
+                     <li><a class="nav-link" href="#">Subitem 1</a></li>
+                     <li><a class="nav-link" href="#">Subitem 2</a></li>
+                     <li><a class="nav-link" href="#">Subitem 3</a></li>
+                  </ul>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+               </li>
+
+            </ul>
+         </div>
+      </div>
+
+   </nav>
+
+   <section id="carouselIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselIndicators" data-slide-to="1"></li>
+         <li data-target="#carouselIndicators" data-slide-to="2"></li>
+      </ol>
+      <div id="zd_main_slides" class="carousel-inner zd_cerousel_lg" role="listbox">
+
+         <div id="slide1" class="carousel-item active" style="background-image: url('img/img1-1.jpg')">
+            <div class="carousel-caption">
+               <div class="container">
+                  <div class="parent_site-heading">
+                     <div class="site-heading text-left">
+                        <h1 class="text-left">This Template is Awesome!</h1>
+                        <div class="my-3">
+                           <p class="text-justify">It has brute virtute, mundi facete ius ne. Cu tota evertitur necessitibus nec. Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil. Eu vide mucius mei. Maiorum tractatos instructior
+                              ut eos, graece graecis vix an, consul impetus mediocrem an his. Possit pericula argumentum vix ex.</p>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+               <div class="modal-content">
+                  <h1>There is POP UP content :)</h1>
+               </div>
+            </div>
+         </div>
+
+         <div id="slide2" class="carousel-item" style="background-image: url('img/img1-2.jpg')">
+            <div class="carousel-caption">
+               <div class="container">
+                  <div class="parent_site-heading">
+                     <div class="site-heading text-left">
+                        <h1 class="text-left">A Lot of Epic Ideas in One Template</h1>
+                        <div class="my-3">
+                           <p class="text-justify">It has brute virtute, mundi facete ius ne. Cu tota evertitur necessitibus nec. Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil. Eu vide mucius mei. Maiorum tractatos instructior
+                              ut eos, graece graecis vix an, consul impetus mediocrem an his. Possit pericula argumentum vix ex.</p>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div id="slide3" class="carousel-item" style="background-image: url('img/img1-3.jpg')">
+            <div class="carousel-caption">
+               <div class="container">
+                  <div class="parent_site-heading">
+                     <div class="site-heading text-left">
+                        <h1 class="text-left">Explore new Possibilities</h1>
+                        <div class="my-3">
+                           <p class="text-justify">It has brute virtute, mundi facete ius ne. Cu tota evertitur necessitibus nec. Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil. Eu vide mucius mei. Maiorum tractatos instructior
+                              ut eos, graece graecis vix an, consul impetus mediocrem an his. Possit pericula argumentum vix ex.</p>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Read More</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <section id="s2" class="container my-5">
+      <div class="row">
+         <div class="col-md-4 text-center">
+            <img id="img1" src="img/img2-1.svg" alt="some_image">
+            <h4>Flat Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed em quam est. Mauris faucibus tellus ac auctor posuere.</p>
+         </div>
+         <div class="col-md-4 text-center">
+            <img id="img2" src="img/img2-2.svg" alt="some_image">
+            <h4>Great Ideas</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed em quam est. Mauris faucibus tellus ac auctor posuere.</p>
+         </div>
+         <div class="col-md-4 text-center">
+            <img id="img3" src="img/img2-3.svg" alt="some_image">
+            <h4>Browser Compabilyity</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed em quam est. Mauris faucibus tellus ac auctor posuere.</p>
+         </div>
+      </div>
+   </section>
+
+   <section id="s3">
+      <div class="container">
+
+         <h1>Recent templates</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed em quam est. Mauris faucibus tellus ac auctor posuere.</p>
+
+
+         <ul class="nav nav-pills" id="myTab" role="tablist">
+            <li class="nav-item">
+               <a class="nav-link active" data-toggle="tab" href="#duoeu" role="tab" aria-controls="duoeu" aria-selected="true">Duo EU</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tab" href="#noster" role="tab" aria-controls="noster" aria-selected="false">Noster</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tab" href="#quaeque" role="tab" aria-controls="quaeque" aria-selected="false">Quaeque</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tab" href="#delicata" role="tab" aria-controls="delicata" aria-selected="false">Delicata</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tab" href="#aliquando" role="tab" aria-controls="aliquando" aria-selected="false">Aliquando</a>
+            </li>
+         </ul>
+
+         <div class="tab-content my-5">
+            <div class="tab-pane active" id="duoeu" role="tabpanel">
+               <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-1-full.jpg" data-lightbox="portfolio"><img src="img/img3-1.jpg" alt="some_image"></a></div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-2-full.jpg" data-lightbox="portfolio"><img src="img/img3-2.jpg" alt="some_image"></a></div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-3-full.jpg" data-lightbox="portfolio"><img src="img/img3-3.jpg" alt="some_image"></a></div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-4-full.jpg" data-lightbox="portfolio"><img src="img/img3-4.jpg" alt="some_image"></a></div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-5-full.jpg" data-lightbox="portfolio"><img src="img/img3-5.jpg" alt="some_image"></a></div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-6-full.jpg" data-lightbox="portfolio"><img src="img/img3-6.jpg" alt="some_image"></a></div>
+               </div>
+               <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="row">
+                     <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-1-full.jpg" data-lightbox="portfolio"><img src="img/img3-1.jpg" alt="some_image"></a></div>
+                     <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-2-full.jpg" data-lightbox="portfolio"><img src="img/img3-2.jpg" alt="some_image"></a></div>
+                     <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-3-full.jpg" data-lightbox="portfolio"><img src="img/img3-3.jpg" alt="some_image"></a></div>
+                     <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-4-full.jpg" data-lightbox="portfolio"><img src="img/img3-4.jpg" alt="some_image"></a></div>
+                     <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-5-full.jpg" data-lightbox="portfolio"><img src="img/img3-5.jpg" alt="some_image"></a></div>
+                     <div class="col-sm-12 col-md-6 col-lg-4 p-0"><a href="img/img3-6-full.jpg" data-lightbox="portfolio"><img src="img/img3-6.jpg" alt="some_image"></a></div>
+                  </div>
+               </div>
+
+               <div class="text-center mt-4">
+                  <a id="colbtn" class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Show More</a>
+               </div>
+
+
+            </div>
+            <div class="tab-pane" id="noster" role="tabpanel"><br>
+               <h1>Tab-2</h1></div>
+            <div class="tab-pane" id="quaeque" role="tabpanel"><br>
+               <h1>Tab-3</h1></div>
+            <div class="tab-pane" id="delicata" role="tabpanel"><br>
+               <h1>Tab-4</h1></div>
+            <div class="tab-pane" id="aliquando" role="tabpanel"><br>
+               <h1>Tab-5</h1></div>
+         </div>
+      </div>
+   </section>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+   <script src="js/bootstrap-4-navbar.js"></script>
+   <script src="js/lightbox.js"></script>
+   <script src="js/scroll.js"></script>
+
+   <!-- Script for opening tabs -->
+   <script>
+      $(function() {
+         $('#myTab li:first-child a').tab('show');
+      })
+   </script>
+
+   <!-- Script for accordion -->
+   <script>
+      $('#multiCollapseExample1').on('show.bs.collapse', function() {
+         $('#colbtn').text('Show less');
+      })
+      $('#multiCollapseExample1').on('hide.bs.collapse', function() {
+         $('#colbtn').text('Show more');
+      })
+   </script>
+
+</body>
+
+</html>
