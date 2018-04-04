@@ -1,18 +1,308 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <title>Template</title>
+      <title>Serj portfolio</title>
 
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="reset.css">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/reset.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/main.min.css">
    </head>
 
    <body>
-      <h1>The will be my portfolio website</h1>
+
+      <div id="preloader">
+         <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+      </div>
+
+      <header>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6 col-md-9 text-right">
+                  <h1 class="wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.55s">
+                     <span>Serhii Repik</span></h1>
+                  <h3 class="wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.65s">
+                     <span>Web developer</span></h3>
+                  <p class="wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.75s">
+                     <span>Kyiv, Ukraine</span></p>
+                  <p class="wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.85s">
+                     <span>+38063 403 7654</span></p>
+                  <p class="wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.95s">
+                     <span>sergrepik@gmail.com</span></p>
+               </div>
+               <div class="d-none d-sm-block col-sm-6 col-md-3 wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.55s">
+                  <img src="img/serj.jpg" alt="Serj">
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <nav id="customNav" class="navbar navbar-expand-sm">
+         <div class="container wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.95s">
+            <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Web portfolio</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <img src="img/menu.svg" alt="menu">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav text-uppercase ml-auto">
+                  <li class="nav-item" data-wow-duration="0.8s" data-wow-delay="0s">
+                     <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                     <a class="nav-link js-scroll-trigger" href="#js-examples">JS examples</a>
+                  </li>
+                  <li class="nav-item" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                     <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                     <a class="nav-link js-scroll-trigger" href="#contacts">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <section id="portfolio" class="">
+         <div class="container">
+            <h2 class="text-center text-uppercase wow fadeIn" data-wow-duration="1.8s">Portfolio</h2>
+            <div class="row">
+
+               <div class="col-lg-6 p-item wow fadeIn" data-wow-duration="1.8s" data-wow-offset="10">
+                  <div class="p-background"><img src="img/kreston.jpg" alt=""></div>
+                  <div class="p-foreground">
+                     <h3>Kreston Mexico</h3>
+                     <ul>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-webdev.svg" alt="">Web development</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-redesign.svg" alt="">Redisign of parts</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-backend.svg" alt="">Backend development</p>
+                           </div>
+                        </li>
+                     </ul>
+                     <a class="p-button" href="http://krestonbsg.com.mx/" target="_blank">visit website</a>
+                  </div>
+               </div>
+
+               <div class="col-lg-6 p-item wow fadeIn" data-wow-duration="1.8s" data-wow-offset="10">
+                  <div class="p-background"><img src="img/eq.jpg" alt=""></div>
+                  <div class="p-foreground">
+                     <h3>Alinsol Eqbootcamp</h3>
+                     <ul>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-speed.svg" alt="">Speed optimization</p>
+                           </div>
+                        </li>
+                     </ul>
+                     <a class="p-button" href="http://allinsol.com/eqbootcamp/" target="_blank">visit website</a>
+                  </div>
+               </div>
+
+               <div class="col-lg-6 p-item wow fadeIn" data-wow-duration="1.8s" data-wow-offset="10">
+                  <div class="p-background"><img src="img/ync.jpg" alt=""></div>
+                  <div class="p-foreground">
+                     <h3>Youth Nationalists Congress</h3>
+                     <ul>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-webdev.svg" alt="">Web development</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-design.svg" alt="">Design</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-ux.svg" alt="">UI/UX design</p>
+                           </div>
+                        </li>
+                     </ul>
+                     <a class="p-button" href="http://beta.mnk.org.ua/" target="_blank">visit website</a>
+                  </div>
+               </div>
+
+               <div class="col-lg-6 p-item wow fadeIn" data-wow-duration="1.8s" data-wow-offset="10">
+                  <div class="p-background"><img src="img/almaz.jpg" alt=""></div>
+                  <div class="p-foreground">
+                     <h3>"Almaz" Hotel</h3>
+                     <ul>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-webdev.svg" alt="">Web development</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-design.svg" alt="">Design</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                              <p><img class="p-ico" src="img/ico-ux.svg" alt="">UI/UX design</p>
+                           </div>
+                        </li>
+                     </ul>
+                     <a class="p-button" href="http://www.almaz.poltava.ua" target="_blank">visit website</a>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <section id="js-examples">
+         <div class="container">
+            <h2 class="text-center text-uppercase wow fadeIn" data-wow-duration="1.8s" data-wow-offset="10">JS Examples</h2>
+            <div class="row">
+
+               <div class="col-md-4 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.8s" data-wow-offset="10">
+                  <a href="https://serjr.github.io/to-do-list/" target="_blank" class="portfolio-link">
+                     <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                           <img src="img/plus.svg" alt="">
+                        </div>
+                     </div>
+                     <img class="img-fluid" src="img/js1.jpg" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>ToDo list</h4>
+                     <p class="text-muted">On pure js</p>
+                  </div>
+               </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.8s" data-wow-offset="10">
+                  <a href="https://serjr.github.io/table-json-vuejs/" target="_blank" class="portfolio-link">
+                     <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                           <img src="img/plus.svg" alt="">
+                        </div>
+                     </div>
+                     <img class="img-fluid" src="img/js2.jpg" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>Dinamic table</h4>
+                     <p class="text-muted">On Vue.js. With search and sort. Data from JSON external file</p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <section id="skills">
+         <div class="container">
+            <h2 class="text-center">Skills Bar</h2>
+            <div class="row">
+               <div class="col-lg-8">
+
+                  <div class="skillbar clearfix " data-percent="95%">
+                     <div class="skillbar-title" style="background: #dd512a;">
+                        <span>HTML5</span></div>
+                     <div class="skillbar-bar" style="background: #dd512a;"></div>
+                     <div class="skill-bar-percent">95%</div>
+                  </div>
+
+                  <div class="skillbar clearfix " data-percent="85%">
+                     <div class="skillbar-title" style="background: #2196f3;">
+                        <span>CSS3</span></div>
+                     <div class="skillbar-bar" style="background: #2196f3;"></div>
+                     <div class="skill-bar-percent">85%</div>
+                  </div>
+
+                  <div class="skillbar clearfix " data-percent="90%">
+                     <div class="skillbar-title" style="background: #6834b4;">
+                        <span>Bootstrap</span></div>
+                     <div class="skillbar-bar" style="background: #6834b4;"></div>
+                     <div class="skill-bar-percent">90%</div>
+                  </div>
+
+                  <div class="skillbar clearfix " data-percent="50%">
+                     <div class="skillbar-title" style="background: #ffda3e;">
+                        <span>JS</span></div>
+                     <div class="skillbar-bar" style="background: #ffda3e;"></div>
+                     <div class="skill-bar-percent">50%</div>
+                  </div>
+
+                  <div class="skillbar clearfix " data-percent="75%">
+                     <div class="skillbar-title" style="background: #4082ae;">
+                        <span>jQuery</span></div>
+                     <div class="skillbar-bar" style="background: #4082ae;"></div>
+                     <div class="skill-bar-percent">75%</div>
+                  </div>
+
+                  <div class="skillbar clearfix " data-percent="70%">
+                     <div class="skillbar-title" style="background: #2a4997;">
+                        <span>Photoshop</span></div>
+                     <div class="skillbar-bar" style="background: #2a4997;"></div>
+                     <div class="skill-bar-percent">70%</div>
+                  </div>
+               </div>
+
+               <div class="skills-logo col-lg-4">
+                  <img src="img/skills/html.svg" alt="">
+                  <img src="img/skills/js.svg" alt="">
+                  <img src="img/skills/css.svg" alt="">
+                  <img src="img/skills/jquery.svg" alt="">
+                  <img src="img/skills/bootstrap.png" alt="">
+                  <img src="img/skills/photoshop.svg" alt="">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <div id="contacts">
+         <div class="wow fadeIn" data-wow-duration="1.2s" data-wow-offset="10">
+            <div class="contact">
+               <div><img src="img/ico-phone.svg" alt=""></div>
+               <p>+38 063 403 7654</p>
+            </div>
+         </div>
+
+         <div class="wow fadeIn" data-wow-duration="1.2s" data-wow-offset="10">
+            <div class="contact">
+               <div><img src="img/ico-mail.svg" alt=""></div>
+               <p>sergrepik@gmail.com</p>
+            </div>
+         </div>
+
+         <div class="wow fadeIn" data-wow-duration="1.2s" data-wow-offset="10">
+            <div class="contact">
+               <div><img src="img/ico-location.svg" alt=""></div>
+               <p>Kyiv, Ukraine</p>
+            </div>
+         </div>
+      </div>
+
+      <footer>
+         <div class="container">
+            <p>Copyright &copy; 2018</p>
+         </div>
+      </footer>
+
+      <a class="wow slideInUp" data-wow-duration="0.8s" href="#" id="scrollTop"></a>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/main.min.js"></script>
    </body>
 
-   <script type="text/javascript" src="app.js"></script>
 </html>
