@@ -57,6 +57,7 @@ header img {
 section {
    background-color: #f0efed;
    padding: 20px 0;
+   min-height: calc(100vh - 100px);
 }
 
 section h2 {

@@ -51,13 +51,13 @@ $("#mc-embedded-subscribe-form").validate({
   $('#birthday').datepicker( {
         changeYear: false,
         showButtonPanel: true,
-        dateFormat: 'mm/dd'
+        dateFormat: 'dd/mm'
   });
 
   $('#marriageday').datepicker( {
         changeYear: false,
         showButtonPanel: true,
-        dateFormat: 'mm/dd'
+        dateFormat: 'dd/mm'
   });
 });
 
