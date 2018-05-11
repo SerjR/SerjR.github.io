@@ -1,0 +1,179 @@
+/* bootstrap v.4 media queries */
+
+/* Screens corrections */
+
+/*
+@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+@media screen and (min-width: 576px) and (max-width: 767px) {}
+@media screen and (max-width: 575px) {}
+*/
+
+/* Fontface example */
+
+/* @font-face {
+   font-family: "FuturaDemiC";
+   src: url('fonts/futurademic.otf') format("otf");
+   src: url('fonts/FuturaDemiCTT.ttf') format('ttf');
+ }
+*/
+
+/*
+   @import url('https://fonts.googleapis.com/css?family=Raleway');
+*/
+
+  @font-face {
+     font-family: "Almoni DL AAA";
+     src: url(AlmoniDLAAA.eot) format("eot");
+     src: url(AlmoniDLAAA.otf) format("otf");
+     src: url(AlmoniDLAAA.svg) format("svg");
+     src: url(AlmoniDLAAA.ttf) format("ttf");
+     src: url(AlmoniDLAAA.wwof) format("wwof");
+   }
+
+p {
+  /* font-family: "Almoni DL AAA"; */
+  font-size: 15pt;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+:root {
+   --color-green: #54af37;
+}
+
+header {
+   height: 50px;
+   background-image: linear-gradient(135deg, #000000 0%, #000000 30%, #000000 90%, #49362f 100%);
+   padding: 10px 20px;
+}
+
+header img {
+   float: right;
+   height: 30px;
+}
+
+section {
+   background-color: #f0efed;
+   padding: 20px 0;
+}
+
+section h2 {
+  /* font-family: "Almoni DL AAA"; */
+   color: var(--color-green);
+   padding: 20px 0;
+}
+
+footer {
+   height: 50px;
+   background-color: #3c3f3e;
+}
+
+form {
+   background-color: white;
+   padding: 15px 15px 15px 30px;
+}
+
+input, select {
+   border: 0;
+   border-bottom: 1px solid black;
+   width: calc(100% - 12px);
+   /* vertical-align: bottom; */
+   margin-top: 30px;
+   direction: rtl;
+   /* font-family: "Almoni DL AAA"; */
+   color: black;
+}
+
+select {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+input::placeholder {
+  color: black;
+  /* font-family: "Almoni DL AAA"; */
+  font-size: 18px;
+}
+
+label {
+  font-size: 18px;
+
+}
+
+input[placeholder] {
+   vertical-align: bottom;
+   text-align: right;
+}
+
+
+form .req-item {
+   color: red;
+}
+
+form .mc-button {
+   width: fit-content;
+   background-color: var(--color-green);
+   display: block;
+   margin: 20px auto;
+   border: 0;
+   color: white;
+   font-size: 18px;
+   padding: 15px;
+}
+
+form .mc-checkbox label {
+  display: inline;
+}
+
+form .mc-checkbox input:last-child {
+  margin-right: 12px;
+}
+
+form .mc-checkbox input {
+  display: inline;
+  width: 15px;
+  margin-top: 0;
+  vertical-align: baseline;
+}
+
+form > div > label {
+  margin-right: 12px;
+}
+
+label.error {
+  color: red;
+ font-size: 12px;
+ border: 1px solid red;
+ border-radius: 5px;
+ padding: 4px;
+ position: relative;
+ width: fit-content;
+ background-color: white;
+ left: 0px;
+ top: 2px;
+ margin: 0;
+}
+
+#thanks {
+  height: calc(100vh - 50px);
+  text-align: center;
+}
+
+#thanks h1 {
+  color: var(--color-green);
+}
+
+#thanks p {
+  max-width: 800px;
+  margin: auto;
+}
+
+#thanks div {
+position: relative;
+top: 30%;
+}
+
+.ui-datepicker-year{
+    display:none;
+}
